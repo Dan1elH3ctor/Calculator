@@ -11,29 +11,29 @@
 </head>
 <body>
     <div>
-        <div><input type="text" class="calculator-screen" placeholder="0"></div>
         <div class="calculator-buttons">
-        
-            <button class="operator" onclick="calculations('+')" value="+">+</button>
-            <button class="operator" onclick="calculations('-')"value="-">-</button>
-            <button class="operator" onclick="calculations('*')"value="*">x</button>
-            <button class="operator" onclick="calculations('/')"value="/">/</button>
-            <button class="equals" onclick="equalResults()"value="=">=</button>
-            
-            <button class="" onclick="calculations(7)" value="7">7</button>
-            <button class="" onclick="calculations(8)" value="8">8</button>
-            <button class="" onclick="calculations(9)" value="9">9</button>
-            <button class="" onclick="calculations(4)" value="4">4</button>
-            <button class="" onclick="calculations(5)" value="5">5</button>
-            <button class="" onclick="calculations(6)" value="6">6</button>
-            <button class="" onclick="calculations(1)" value="1">1</button>
-            <button class="" onclick="calculations(2)" value="2">2</button>
-            <button class="" onclick="calculations(3)" value="3">3</button>
-            <button class="" onclick="calculations(0)" value="0">0</button>
-
-            <button class="decimal" onclick="calculations('.')" value=".">.</button>
-            <button class="all-clear" onclick="clr()">AC</button>
+            <!-- input -->
+            <input type="text" class="calculator-screen" placeholder="0">
+            <!-- buttons -->
             <button class="delete" onclick="backspace()">Del</button>
+            <button class="all-clear" onclick="clr()">AC</button>
+            <button class="plus" onclick="calculations('+')" value="+">+</button>
+            <button class="minus" onclick="calculations('-')"value="-">-</button>
+            <button class="multiply" onclick="calculations('*')"value="*">x</button>
+            <button class="divide" onclick="calculations('/')"value="/">/</button>
+            
+            <button class="seven" onclick="calculations(7)" value="7">7</button>
+            <button class="eight" onclick="calculations(8)" value="8">8</button>
+            <button class="nine" onclick="calculations(9)" value="9">9</button>
+            <button class="four" onclick="calculations(4)" value="4">4</button>
+            <button class="five" onclick="calculations(5)" value="5">5</button>
+            <button class="six" onclick="calculations(6)" value="6">6</button>
+            <button class="one" onclick="calculations(1)" value="1">1</button>
+            <button class="two" onclick="calculations(2)" value="2">2</button>
+            <button class="three" onclick="calculations(3)" value="3">3</button>
+            <button class="zero" onclick="calculations(0)" value="0">0</button>
+            <button class="decimal" onclick="calculations('.')" value=".">.</button>
+            <button class="equals" onclick="equalResults()"value="=">=</button>
         </div>
     </div>
 
