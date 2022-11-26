@@ -15,6 +15,7 @@
     text-align: end;
     border: solid 4px rgb(0, 31, 0);
     border-radius: 10px;
+    height: 3rem;
   }
  .calculator {
     background-color: rgb(0, 145, 39);
@@ -30,11 +31,12 @@ body{
     background-color: lightseagreen;
 }
 #AC, #Del{
-    background-color: crimson;
+    background-color: lightseagreen;
 }
 .num{
     color: rgb(0, 31, 0);
     border:  none;
+    font-size: 25px;
 }
 #equal{
     grid-column: span 3;
