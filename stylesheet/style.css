@@ -18,7 +18,7 @@
     height: 3rem;
   }
  .calculator {
-    background-color: rgb(0, 145, 39);
+    background-color: violet;
     width: 300px;
     height: 50vh;
     box-shadow: 25px 25px rgb(0, 31, 0);
@@ -28,10 +28,10 @@
 }
 
 body{
-    background-color: lightseagreen;
+    background-color: paleturquoise;
 }
 #AC, #Del{
-    background-color: lightseagreen;
+    background-color: paleturquoise;
 }
 .num{
     color: rgb(0, 31, 0);
